@@ -1,4 +1,5 @@
-:root { /* DEFINIÇÃO DE VARIÁVEIS */
+/* DEFINIÇÃO DE VARIÁVEIS */
+:root { 
     --vermelho: #E50914;
     --preto: #141414;
 }
@@ -13,19 +14,20 @@
 body {
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
     display: flex;
-    align-items: center; /* vertical*/
-    justify-content: space-between; /* horizontal */
+    align-items: center; /* VERTICAL */
+    justify-content: space-between; /* HORIZONTAL */
 }
 
 .logo {
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* FONTE MAIS ADEQUADA QUE A PASSADA NO CURSO */
-    font-size: 40px;
+    font-family: 'Bebas Neue', cursive; /* FONTE MAIS ADEQUADA QUE A PASSADA NO CURSO */
+    font-size: 45px;
 }
 
 header nav a {
