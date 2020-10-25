@@ -1,6 +1,39 @@
+:root { /* DEFINIÇÃO DE VARIÁVEIS */
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
 /* RESET CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* OS ELEMENTOS NÃO ROMPERÃO A BORDA DA CAIXA */
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center; /* vertical*/
+    justify-content: space-between; /* horizontal */
+}
+
+.logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* FONTE MAIS ADEQUADA QUE A PASSADA NO CURSO */
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #ffffff;
 }
