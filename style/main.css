@@ -1,0 +1,6 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* OS ELEMENTOS NÃO ROMPERÃO A BORDA DA CAIXA */
+}
