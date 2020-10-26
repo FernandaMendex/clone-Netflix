@@ -17,6 +17,7 @@ body {
     color: white;
 }
 
+/* NAV BAR */ 
 header .container {
     display: flex;
     align-items: center; /* VERTICAL */
@@ -38,4 +39,24 @@ header nav a {
 
 header nav a:hover {
     color: #ffffff;
+}
+
+/* FILME PRINCIPAL */ 
+.filme-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* HORIZONTAL */
+    justify-content: center; /* VERTICAL */
+    height: 400px;
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)), url(../images/capa-house.jpg);
+    background-size: cover;
+}
+
+.filme-principal .titulo {
+    font-size: 40px;
+}
+
+.filme-principal .sinopse {
+    margin-bottom: 40px;
 }
